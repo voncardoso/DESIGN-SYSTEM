@@ -1,0 +1,7 @@
+{
+  "extends": ["@ignite-ui/eslint-config"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
