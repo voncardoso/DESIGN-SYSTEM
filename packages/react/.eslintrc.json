@@ -1,5 +1,5 @@
 {
-  "extends": ["@ignite-ui/eslint-config"],
+  "extends": ["@vonharrison-ignite-ui/eslint-config"],
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error"
