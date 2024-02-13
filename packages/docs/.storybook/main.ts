@@ -24,6 +24,9 @@ const config: StorybookConfig = {
       legacyRootApi: true,
     },
   },
+  core: {
+    builder: getAbsolutePath("@storybook/builder-vite"),
+  },
   docs: {
     autodocs: true,
   },
