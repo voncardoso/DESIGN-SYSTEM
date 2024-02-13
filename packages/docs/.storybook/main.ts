@@ -20,7 +20,9 @@ const config: StorybookConfig = {
   ],
   framework: {
     name: getAbsolutePath("@storybook/react-vite"),
-    options: {},
+    options: {
+      legacyRootApi: true,
+    },
   },
   docs: {
     autodocs: true,
