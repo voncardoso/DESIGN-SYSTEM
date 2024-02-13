@@ -34,10 +34,11 @@ const config: StorybookConfig = {
     autodocs: true,
   },
   viteFinal: (config, { configType }) => {
-    if (configType === "PRODUCTION") {
-      config.base = "/DESIGN-SYSTEM/";
+    if (configType === 'PRODUCTION') {
+      config.base = '/DESIGN-SYSTEM/'
     }
-    return config;
+  
+    return config
   }
 
 };
