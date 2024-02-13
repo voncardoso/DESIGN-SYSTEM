@@ -23,8 +23,8 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: hsYskozqbiUbUXfey7n2kIjr
-          TURBO_TEAM: teste12
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+          TURBO_TEAM: ${{ secrets.TUBO_TEAM }}
 
       - name: Deploy storybook
         working-directory: ./packages/docs
