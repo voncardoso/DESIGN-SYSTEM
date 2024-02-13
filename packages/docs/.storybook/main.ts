@@ -27,6 +27,9 @@ const config: StorybookConfig = {
   core: {
     builder: getAbsolutePath("@storybook/builder-vite"),
   },
+  features: {
+    storyStoreV7: true,
+  },
   docs: {
     autodocs: true,
   },
