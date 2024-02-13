@@ -29,5 +29,6 @@ export const Disebled: StoryObj<TextInputProps> = {
 export const WhithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: "cal.com/",
+    placeholder: "your-username",
   },
 };
