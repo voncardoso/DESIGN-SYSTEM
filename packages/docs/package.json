@@ -4,9 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "start-storybook -p 6006",
-    "deploy-storybook": "storybook-to-ghpages",
-    "build": "build-storybook"
+    "dev": "vite",
+    "build": "build-storybook",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@storybook/addon-a11y": "^7.6.15",
